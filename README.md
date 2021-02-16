@@ -3,19 +3,26 @@
 Docker container for CodeIgniter4 development.
 
 ## Installation
-Start a fresh CodeIgniter4 project
+
+- Create project folder
 ```
-composer create-project codeigniter4/appstarter project-root
+mkdir project-root
 ```
 
-Enter project directory
+- Enter project directory
 ```
 cd project-root
 ```
 
-Clone the repository
+- Clone the repository
 ```
 git clone git@github.com:RussoFaccin/docker-codeigniter4.git .
+```
+
+- Download the [latest CodeIgniter4 version](https://github.com/CodeIgniter4/framework/releases/latest), and extract it to your project root.
+- Install dependencies
+```
+composer install
 ```
 
 Run setup script
