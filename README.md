@@ -1,5 +1,5 @@
-# Docker CodeIgniter 4!
 
+# Docker CodeIgniter 4!
 Docker container for CodeIgniter4 development.
 
 ## Installation
@@ -7,6 +7,7 @@ Start a fresh CodeIgniter4 project
 ```
 composer create-project codeigniter4/appstarter project-root
 ```
+
 Enter project directory
 ```
 cd project-root
@@ -16,15 +17,19 @@ Clone the repository
 ```
 git clone git@github.com:RussoFaccin/docker-codeigniter4.git .
 ```
-Start Docker container
+
+Run setup script
 ```
-docker-compose up -d
+bin/setup
 ```
-Start container (php-fpm) command line
+Access: http://localhost:8080/
+
+## Commands
+Start container
 ```
-docker exec -it <containerID> bash
+bin/start
 ```
-Give folder permissions
+Stop container
 ```
-chmod 777 -R writable
+bin/stop
 ```

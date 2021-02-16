@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "=================================================="
+echo "Fixing folder permissions..."
+echo "=================================================="
+
+sudo chmod 777 -R writable/
