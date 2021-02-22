@@ -20,12 +20,8 @@ git clone git@github.com:RussoFaccin/docker-codeigniter4.git .
 ```
 
 - Download the [latest CodeIgniter4 version](https://github.com/CodeIgniter4/framework/releases/latest), and extract it to your project root.
-- Install dependencies
-```
-composer install
-```
 
-Run setup script
+- Run setup script
 ```
 bin/setup
 ```
